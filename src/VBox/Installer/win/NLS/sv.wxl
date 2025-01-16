@@ -55,19 +55,19 @@
     <!---->
 
       <String Id="VB_App" Value="[ProductName] programmet." />
-      <String Id="VB_USBDriver" Value="[ProductName] drivrutiner för USB-enheter för USB-enhetsstöd." />
-    <String Id="VB_Network" Value="[ProductName] network device drivers for networking support." />
-    <String Id="VB_NetFltDriver" Value="[ProductName] driver for Bridged Networking." />
-    <String Id="VB_NetAdpDriver" Value="[ProductName] virtual network adapter driver for Host-Only Networking." />
-    <String Id="VB_NetLwfDriver" Value="[ProductName] driver for NDIS6 Bridged Networking." />
-    <String Id="VB_NetAdp6Driver" Value="[ProductName] virtual network adapter driver for NDIS6 Host-Only Networking." />
-    <String Id="VB_Python" Value="Python support for VirtualBox." />
+      <String Id="VB_USBDriver" Value="[ProductName]-drivrutiner för USB-enheter för USB-enhetsstöd." />
+    <String Id="VB_Network" Value="[ProductName]-nätverksdrivrutiner för nätverksstöd." />
+    <String Id="VB_NetFltDriver" Value="[ProductName]-drivrutin för bryggat nätverk." />
+    <String Id="VB_NetAdpDriver" Value="[ProductName]-drivrutin för virtuellt nätverkskort för endast-värd-nätverk." />
+    <String Id="VB_NetLwfDriver" Value="[ProductName]-drivrutin för NDIS6-bryggat nätverk." />
+    <String Id="VB_NetAdp6Driver" Value="[ProductName]-drivrutin för virtuellt nätverkskort för NDIS6 endast-värd-nätverk." />
+    <String Id="VB_Python" Value="Python-stöd för VirtualBox." />
 
     <!---->
 
-    <String Id="NeedAdmin" Value="You need to have administrator rights to (un)install [ProductName]! This setup will abort now." />
-    <String Id="NeedMSCRT" Value="[ProductName] needs the Microsoft Visual C++ 2019 Redistributable Package being installed first. Please install and restart the installation of [ProductName]." />
-    <String Id="WrongOS" Value="This application only runs on Windows XP or above." />
+    <String Id="NeedAdmin" Value="Du behöver administratörsbehörighet för att (av)installera [ProductName]! Denna konfiguration kommer avbrytas nu." />
+    <String Id="NeedMSCRT" Value="[ProductName] behöver att Microsoft Visual C++ 2019 Redistributable Package installeras först. Please install and restart the installation of [ProductName]." />
+    <String Id="WrongOS" Value="Detta program kan endast köras på Windows XP eller senare." />
     <String Id="Only32Bit" Value="This application only runs on 32-bit Windows systems. Please install the 64-bit version of [ProductName]!" />
     <String Id="Only64Bit" Value="This application only runs on 64-bit Windows systems. Please install the 32-bit version of [ProductName]!" />
     <String Id="SunFound" Value="An old Sun VirtualBox installation has been found on this machine. Please uninstall this package first and then install [ProductName]!" />
@@ -98,7 +98,7 @@
 
     <!---->
 
-    <String Id="CheckSerialDlg_Header" Value="Serial Number" />
+    <String Id="CheckSerialDlg_Header" Value="Serienummer" />
     <String Id="CheckSerialDlg_Body" Value="Please enter your serial number in the fields below. You'll find it on the sticker inside the VirtualBox CD case." />
     <String Id="CheckSerialDlg_Footer" Value="When done entering the serial number, press the &quot;Check&quot; button below." />
 
@@ -230,18 +230,18 @@
 
     <!---->
 
-    <String Id="MaintenanceTypeDlg_Header" Value="Modify, Repair or Remove installation" />
-    <String Id="MaintenanceTypeDlg_SelOption" Value="Select the operation you wish to perform." />
-    <String Id="MaintenanceTypeDlg_Repair" Value="Re&amp;pair" />
-    <String Id="MaintenanceTypeDlg_RepairText" Value="Repairs errors in the most recent installation state - fixes missing or corrupt files, shortcuts and registry entries." />
-    <String Id="MaintenanceTypeDlg_RepairTooltip" Value="Repair installation" />
-    <String Id="MaintenanceTypeDlg_RepairProgress1" Value="Repairing" />
-    <String Id="MaintenanceTypeDlg_RepairProgress2" Value="repairs" />
-    <String Id="MaintenanceTypeDlg_Remove" Value="&amp;Remove" />
-    <String Id="MaintenanceTypeDlg_RemoveText" Value="Removes [ProductName] from your computer." />
-    <String Id="MaintenanceTypeDlg_RemoveTooltip" Value="Remove installation" />
-    <String Id="MaintenanceTypeDlg_RemoveProgress1" Value="Removing" />
-    <String Id="MaintenanceTypeDlg_RemoveProgress2" Value="removes" />
+    <String Id="MaintenanceTypeDlg_Header" Value="Ändra, reparera eller ta bort installation" />
+    <String Id="MaintenanceTypeDlg_SelOption" Value="Välj den åtgärd som du önskar genomföra." />
+    <String Id="MaintenanceTypeDlg_Repair" Value="Re&amp;parera" />
+    <String Id="MaintenanceTypeDlg_RepairText" Value="Reparerar fel i de flesta installationstillstånd - rättar till saknade eller skadade filer, genvägar och registerposter." />
+    <String Id="MaintenanceTypeDlg_RepairTooltip" Value="Reparera installation" />
+    <String Id="MaintenanceTypeDlg_RepairProgress1" Value="Reparerar" />
+    <String Id="MaintenanceTypeDlg_RepairProgress2" Value="reparerar" />
+    <String Id="MaintenanceTypeDlg_Remove" Value="&amp;Ta bort" />
+    <String Id="MaintenanceTypeDlg_RemoveText" Value="Tar bort [ProductName] från din dator." />
+    <String Id="MaintenanceTypeDlg_RemoveTooltip" Value="Ta bort installation" />
+    <String Id="MaintenanceTypeDlg_RemoveProgress1" Value="Tar bort" />
+    <String Id="MaintenanceTypeDlg_RemoveProgress2" Value="tar bort" />
 
     <!---->
 
@@ -263,13 +263,13 @@
 
     <!---->
 
-    <String Id="VerifyRemoveDlg_Header" Value="Remove [ProductName]" />
+    <String Id="VerifyRemoveDlg_Header" Value="Ta bort [ProductName]" />
     <String Id="VerifyRemoveDlg_Desc" Value="You have chosen to remove the program from your computer." />
     <String Id="VerifyRemoveDlg_ClickRemove" Value="Click Remove to remove [ProductName] from your computer. If you want to review or change any of your installation settings, click Back. Click Cancel to exit the wizard." />
 
     <!---->
 
-    <String Id="VerifyRepairDlg_Header" Value="Repair [ProductName]" />
+    <String Id="VerifyRepairDlg_Header" Value="Reparera [ProductName]" />
     <String Id="VerifyRepairDlg_ReadyToBegin" Value="The Setup Wizard is ready to begin the repair of [ProductName]." />
     <String Id="VerifyRepairDlg_ClickRepair" Value="Click Repair to repair the installation of [ProductName]. If you want to review or change any of your installation settings, click Back. Click Cancel to exit the wizard." />
 
@@ -380,7 +380,7 @@
     <String Id="Error1706" Value="An installation package for the product [2] cannot be found. Try the installation again using a valid copy of the installation package '[3]'." />
     <String Id="Error1707" Value="Installation completed successfully." />
     <String Id="Error1708" Value="Installation failed." />
-    <String Id="Error1709" Value="Product: [2] -- [3]" />
+    <String Id="Error1709" Value="Produkt: [2] -- [3]" />
     <String Id="Error1710" Value="You may either restore your computer to its previous state or continue the install later. Would you like to restore?" />
     <String Id="Error1711" Value="An error occurred while writing installation information to disk. Check to make sure enough disk space is available, and click Retry, or Cancel to end the install." />
     <String Id="Error1712" Value="One or more of the files required to restore your computer to its previous state could not be found. Restoration will not be possible." />
@@ -446,18 +446,18 @@
     <String Id="Error1935" Value="An error occured during the installation of assembly component [2]. HRESULT: [3]. {{assembly interface: [4], function: [5], assembly name: [6]}}" />
 
     <!-- Own / special errors -->
-    <String Id="Error25001" Value="The application &quot;[2]&quot; needs to be closed for the installation to continue." />
+    <String Id="Error25001" Value="Programmet &quot;[2]&quot; behöver stängas för att installationen ska fortsätta." />
 
     <String Id="ProgressTextInstallValidate" Value="Validating install" />
-    <String Id="ProgressTextInstallFiles" Value="Copying new files" />
+    <String Id="ProgressTextInstallFiles" Value="Kopierar nya filer" />
     <String Id="ProgressTextInstallFilesTemplate" Value="File: [1],  Directory: [9],  Size: [6]" />
     <String Id="ProgressTextInstallAdminPackage" Value="Copying network install files" />
     <String Id="ProgressTextInstallAdminPackageTemplate" Value="File: [1], Directory: [9], Size: [6]" />
     <String Id="ProgressTextFileCost" Value="Computing space requirements" />
     <String Id="ProgressTextCostInitialize" Value="Computing space requirements" />
     <String Id="ProgressTextCostFinalize" Value="Computing space requirements" />
-    <String Id="ProgressTextCreateShortcuts" Value="Creating shortcuts" />
-    <String Id="ProgressTextCreateShortcutsTemplate" Value="Shortcut: [1]" />
+    <String Id="ProgressTextCreateShortcuts" Value="Skapar genvägar" />
+    <String Id="ProgressTextCreateShortcutsTemplate" Value="Genväg: [1]" />
     <String Id="ProgressTextPublishComponents" Value="Publishing Qualified Components" />
     <String Id="ProgressTextPublishComponentsTemplate" Value="Component ID: [1], Qualifier: [2]" />
     <String Id="ProgressTextPublishFeatures" Value="Publishing Product Features" />
@@ -472,65 +472,65 @@
     <String Id="ProgressTextRegisterProgIdInfo" Value="Registering program identifiers" />
     <String Id="ProgressTextRegisterProgIdInfoTemplate" Value="ProgId: [1]" />
     <String Id="ProgressTextAllocateRegistrySpace" Value="Allocating registry space" />
-    <String Id="ProgressTextAllocateRegistrySpaceTemplate" Value="Free space: [1]" />
-    <String Id="ProgressTextAppSearch" Value="Searching for installed applications" />
-    <String Id="ProgressTextAppSearchTemplate" Value="Property: [1], Signature: [2]" />
+    <String Id="ProgressTextAllocateRegistrySpaceTemplate" Value="Ledigt utrymme: [1]" />
+    <String Id="ProgressTextAppSearch" Value="Söker efter installerade program" />
+    <String Id="ProgressTextAppSearchTemplate" Value="Egenskap: [1], Signatur: [2]" />
     <String Id="ProgressTextBindImage" Value="Binding executables" />
-    <String Id="ProgressTextBindImageTemplate" Value="File: [1]" />
+    <String Id="ProgressTextBindImageTemplate" Value="Fil: [1]" />
     <String Id="ProgressTextCCPSearch" Value="Searching for qualifying products" />
-    <String Id="ProgressTextCreateFolders" Value="Creating folders" />
-    <String Id="ProgressTextCreateFoldersTemplate" Value="Folder: [1]" />
-    <String Id="ProgressTextDeleteServices" Value="Deleting services" />
-    <String Id="ProgressTextDeleteServicesTemplate" Value="Service: [1]" />
+    <String Id="ProgressTextCreateFolders" Value="Skapar mappar" />
+    <String Id="ProgressTextCreateFoldersTemplate" Value="Mapp: [1]" />
+    <String Id="ProgressTextDeleteServices" Value="Tar bort tjänster" />
+    <String Id="ProgressTextDeleteServicesTemplate" Value="Tjänst: [1]" />
     <String Id="ProgressTextDuplicateFiles" Value="Creating duplicate files" />
-    <String Id="ProgressTextDuplicateFilesTemplate" Value="File: [1],  Directory: [9],  Size: [6]" />
+    <String Id="ProgressTextDuplicateFilesTemplate" Value="Fil: [1],  Katalog: [9],  Storlek: [6]" />
     <String Id="ProgressTextFindRelatedProducts" Value="Searching for related applications" />
-    <String Id="ProgressTextFindRelatedProductsTemplate" Value="Found application: [1]" />
-    <String Id="ProgressTextInstallODBC" Value="Installing ODBC components" />
-    <String Id="ProgressTextInstallServices" Value="Installing new services" />
-    <String Id="ProgressTextInstallServicesTemplate" Value="Service: [2]" />
+    <String Id="ProgressTextFindRelatedProductsTemplate" Value="Hittade program: [1]" />
+    <String Id="ProgressTextInstallODBC" Value="Installerar ODBC-komponenter" />
+    <String Id="ProgressTextInstallServices" Value="Installerar nya tjänster" />
+    <String Id="ProgressTextInstallServicesTemplate" Value="Tjänst: [2]" />
     <String Id="ProgressTextLaunchConditions" Value="Evaluating launch conditions" />
     <String Id="ProgressTextMigrateFeatureStates" Value="Migrating feature states from related applications" />
-    <String Id="ProgressTextMigrateFeatureStatesTemplate" Value="Application: [1]" />
-    <String Id="ProgressTextMoveFiles" Value="Moving files" />
+    <String Id="ProgressTextMigrateFeatureStatesTemplate" Value="Program: [1]" />
+    <String Id="ProgressTextMoveFiles" Value="Flyttar filer" />
     <String Id="ProgressTextMoveFilesTemplate" Value="File: [1],  Directory: [9],  Size: [6]" />
-    <String Id="ProgressTextPatchFiles" Value="Patching files" />
+    <String Id="ProgressTextPatchFiles" Value="Patchar filer" />
     <String Id="ProgressTextPatchFilesTemplate" Value="File: [1],  Directory: [2],  Size: [3]" />
     <String Id="ProgressTextProcessComponents" Value="Updating component registration" />
     <String Id="ProgressTextRegisterComPlus" Value="Registering COM+ Applications and Components" />
     <String Id="ProgressTextRegisterComPlusTemplate" Value="AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}" />
-    <String Id="ProgressTextRegisterFonts" Value="Registering fonts" />
+    <String Id="ProgressTextRegisterFonts" Value="Registrerar typsnitt" />
     <String Id="ProgressTextRegisterFontsTemplate" Value="Font: [1]" />
-    <String Id="ProgressTextRegisterProduct" Value="Registering product" />
+    <String Id="ProgressTextRegisterProduct" Value="Registrerar produkt" />
     <String Id="ProgressTextRegisterProductTemplate" Value="[1]" />
     <String Id="ProgressTextRegisterTypeLibraries" Value="Registering type libraries" />
     <String Id="ProgressTextRegisterTypeLibrariesTemplate" Value="LibID: [1]" />
-    <String Id="ProgressTextRegisterUser" Value="Registering user" />
+    <String Id="ProgressTextRegisterUser" Value="Registrerar användare" />
     <String Id="ProgressTextRegisterUserTemplate" Value="[1]" />
     <String Id="ProgressTextRemoveDuplicateFiles" Value="Removing duplicated files" />
-    <String Id="ProgressTextRemoveDuplicateFilesTemplate" Value="File: [1], Directory: [9]" />
+    <String Id="ProgressTextRemoveDuplicateFilesTemplate" Value="Fil: [1], Katalog: [9]" />
     <String Id="ProgressTextRemoveEnvironmentStrings" Value="Updating environment strings" />
     <String Id="ProgressTextRemoveEnvironmentStringsTemplate" Value="Name: [1], Value: [2], Action [3]" />
-    <String Id="ProgressTextRemoveExistingProducts" Value="Removing applications" />
-    <String Id="ProgressTextRemoveExistingProductsTemplate" Value="Application: [1], Command line: [2]" />
-    <String Id="ProgressTextRemoveFiles" Value="Removing files" />
-    <String Id="ProgressTextRemoveFilesTemplate" Value="File: [1], Directory: [9]" />
-    <String Id="ProgressTextRemoveFolders" Value="Removing folders" />
-    <String Id="ProgressTextRemoveFoldersTemplate" Value="Folder: [1]" />
+    <String Id="ProgressTextRemoveExistingProducts" Value="Tar bort program" />
+    <String Id="ProgressTextRemoveExistingProductsTemplate" Value="Program: [1], Kommandorad: [2]" />
+    <String Id="ProgressTextRemoveFiles" Value="Tar bort filer" />
+    <String Id="ProgressTextRemoveFilesTemplate" Value="Fil: [1], Katalog: [9]" />
+    <String Id="ProgressTextRemoveFolders" Value="Tar bort mappar" />
+    <String Id="ProgressTextRemoveFoldersTemplate" Value="Mapp: [1]" />
     <String Id="ProgressTextRemoveIniValues" Value="Removing INI files entries" />
     <String Id="ProgressTextRemoveIniValuesTemplate" Value="File: [1],  Section: [2],  Key: [3], Value: [4]" />
     <String Id="ProgressTextRemoveODBC" Value="Removing ODBC components" />
     <String Id="ProgressTextRemoveRegistryValues" Value="Removing system registry values" />
     <String Id="ProgressTextRemoveRegistryValuesTemplate" Value="Key: [1], Name: [2]" />
-    <String Id="ProgressTextRemoveShortcuts" Value="Removing shortcuts" />
-    <String Id="ProgressTextRemoveShortcutsTemplate" Value="Shortcut: [1]" />
+    <String Id="ProgressTextRemoveShortcuts" Value="Tar bort genvägar" />
+    <String Id="ProgressTextRemoveShortcutsTemplate" Value="Genväg: [1]" />
     <String Id="ProgressTextRMCCPSearch" Value="Searching for qualifying products" />
-    <String Id="ProgressTextSelfRegModules" Value="Registering modules" />
-    <String Id="ProgressTextSelfRegModulesTemplate" Value="File: [1], Folder: [2]" />
-    <String Id="ProgressTextSelfUnregModules" Value="Unregistering modules" />
-    <String Id="ProgressTextSelfUnregModulesTemplate" Value="File: [1], Folder: [2]" />
+    <String Id="ProgressTextSelfRegModules" Value="Registrerar moduler" />
+    <String Id="ProgressTextSelfRegModulesTemplate" Value="Fil: [1], Mapp: [2]" />
+    <String Id="ProgressTextSelfUnregModules" Value="Avregistrerar moduler" />
+    <String Id="ProgressTextSelfUnregModulesTemplate" Value="Fil: [1], Mapp: [2]" />
     <String Id="ProgressTextSetODBCFolders" Value="Initializing ODBC directories" />
-    <String Id="ProgressTextStartServices" Value="Starting services" />
+    <String Id="ProgressTextStartServices" Value="Startar tjänster" />
     <String Id="ProgressTextStartServicesTemplate" Value="Service: [1]" />
     <String Id="ProgressTextStopServices" Value="Stopping services" />
     <String Id="ProgressTextStopServicesTemplate" Value="Service: [1]" />
@@ -545,7 +545,7 @@
     <String Id="ProgressTextUnregisterExtensionInfo" Value="Unregistering extension servers" />
     <String Id="ProgressTextUnregisterExtensionInfoTemplate" Value="Extension: [1]" />
     <String Id="ProgressTextUnregisterFonts" Value="Unregistering fonts" />
-    <String Id="ProgressTextUnregisterFontsTemplate" Value="Font: [1]" />
+    <String Id="ProgressTextUnregisterFontsTemplate" Value="Typsnitt: [1]" />
     <String Id="ProgressTextUnregisterMIMEInfo" Value="Unregistering MIME info" />
     <String Id="ProgressTextUnregisterMIMEInfoTemplate" Value="MIME Content Type: [1], Extension: [2]" />
     <String Id="ProgressTextUnregisterProgIdInfo" Value="Unregistering program identifiers" />
@@ -570,12 +570,12 @@
     <String Id="ProgressTextRollback" Value="Rolling back action:" />
     <String Id="ProgressTextRollbackTemplate" Value="[1]" />
     <String Id="ProgressTextRollbackCleanup" Value="Removing backup files" />
-    <String Id="ProgressTextRollbackCleanupTemplate" Value="File: [1]" />
+    <String Id="ProgressTextRollbackCleanupTemplate" Value="Fil: [1]" />
     <String Id="ProgressTextUnmoveFiles" Value="Removing moved files" />
-    <String Id="ProgressTextUnmoveFilesTemplate" Value="File: [1], Directory: [9]" />
+    <String Id="ProgressTextUnmoveFilesTemplate" Value="Fil: [1], Katalog: [9]" />
     <String Id="ProgressTextUnpublishProduct" Value="Unpublishing product information" />
 
-    <String Id="UITextbytes" Value="bytes" />
+    <String Id="UITextbytes" Value="byte" />
     <String Id="UITextGB" Value="GB" />
     <String Id="UITextKB" Value="KB" />
     <String Id="UITextMB" Value="MB" />
@@ -618,11 +618,11 @@
     <String Id="UITextSelParentCostNegPos" Value="This feature frees up [1] on your hard drive. It has [2] of [3] subfeatures selected. The subfeatures require [4] on your hard drive." />
     <String Id="UITextSelParentCostPosNeg" Value="This feature requires [1] on your hard drive. It has [2] of [3] subfeatures selected. The subfeatures free up [4] on your hard drive." />
     <String Id="UITextSelParentCostPosPos" Value="This feature requires [1] on your hard drive. It has [2] of [3] subfeatures selected. The subfeatures require [4] on your hard drive." />
-    <String Id="UITextTimeRemaining" Value="Time remaining: {[1] minutes }{[2] seconds}" />
-    <String Id="UITextVolumeCostAvailable" Value="Available" />
-    <String Id="UITextVolumeCostDifference" Value="Difference" />
+    <String Id="UITextTimeRemaining" Value="Återstående tid: {[1] minuter }{[2] sekunder}" />
+    <String Id="UITextVolumeCostAvailable" Value="Tillgänglig" />
+    <String Id="UITextVolumeCostDifference" Value="Skillnad" />
     <String Id="UITextVolumeCostRequired" Value="Required" />
-    <String Id="UITextVolumeCostSize" Value="Disk Size" />
-    <String Id="UITextVolumeCostVolume" Value="Volume" />
+    <String Id="UITextVolumeCostSize" Value="Diskstorlek" />
+    <String Id="UITextVolumeCostVolume" Value="Volym" />
 
 </WixLocalization>
